@@ -1,0 +1,105 @@
+/*************************
+********* Global *********
+*************************/
+
+body {
+  background: #FEFEFE;
+}
+body, select, input, textarea {
+  font: normal 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+/*** Typography ***/
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 21px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+p.meta {
+  color: #999;
+}
+a {
+  color: #0E0;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #0C0;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+blockquote{
+  padding: 10px 20px;
+  border-left: 1px solid #CCC;
+  font-style: italic;
+  font-size: 16px;
+}
+
+/*** Lists ***/
+
+ul {
+  padding: 10px 0 15px 20px;
+  list-style: disc;
+}
+ol {
+  padding: 10px 0 15px 25px;
+  list-style: decimal;
+}
+ul li,
+ol li {
+  margin-bottom: 5px;
+}
+
+
+/*************************
+********* Layout *********
+*************************/
+
+div.wrapper {
+  max-width: 940px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+div#main {
+  position: relative;
+  margin: 80px 0 30px;
+}
+
+/*** Layout > Header ***/
+
+body > header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 100;
+  background: #000;
+}
+
+
+/**************************
+********* Objects *********
+**************************/
+

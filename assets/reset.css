@@ -1,0 +1,84 @@
+/************************
+********* Reset *********
+************************/
+
+/*  Adapted from:
+ *  http://meyerweb.com/eric/tools/css/reset/
+ *  v2.0 | 20110126 | License: none (public domain)
+ */
+
+/*  Disabled elements below are no longer supported in HTML5: */
+html, body, div, span, /*applet,*/ object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, /*acronym,*/ address, /*big,*/ cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, /*strike,*/ strong, sub, sup, /*tt,*/ var,
+b, /*u,*/ i, /*center,*/
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, datalist, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+  box-sizing:           border-box;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+
+/*** Reset > Typography ***/
+
+body {
+  line-height: 1;
+}
+pre, code {
+  font-family: monospace;
+}
+
+/*** Reset > Controls ***/
+
+input, textarea, button{
+  margin: 0;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+  box-sizing:           border-box;
+  font: inherit;
+}
+
+/*** Reset > Tables ***/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+}
+
+/*** Reset > Quotes ***/
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ''; /* Removes quotes in browsers where `content: none` fails */
+  content: none;
+}
+cite {
+  font-style: normal;
+}
