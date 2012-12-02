@@ -5,21 +5,20 @@
   <title>Hackerscout Handbook | {{ page.title }}</title>
   <meta name="description" content="The coder's guide to community building">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/assets/reset.css">
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/bootstrap.css">
   <!-- Include the html5shim for older IEs -->
   <!--[if lt IE 9]><script src="/assets/html5shim.js"></script><![endif]-->
 </head>
 <body>
-  <header>
-    <div class="wrapper">
-      <h1><a href="/">&gt; Hackerscout Handbook</a></h1>
-    </div> <!-- div.wrapper -->
-  </header>
-  <div class="wrapper">
-    <div id="main" role="main">
-      {{ content }}
-    </div> <!-- div#main -->
-  </div> <!-- div.wrapper -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="/">&gt; Hackerscout Handbook</a>
+      </div> <!-- div.container -->
+    </div> <!-- div.navbar-inner -->
+  </div> <!-- div.navbar -->
+  <div class="container">
+    {{ content }}
+  </div> <!-- div.container -->
 </body>
 </html>
