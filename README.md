@@ -10,6 +10,8 @@ To get setup with Jekyll, head on over to the
 [github page](https://github.com/mojombo/jekyll) to install the gem and read up
 on the documentation. It's simple, I promise. Then, you should be good to go!
 
+Run the server with: `jekyll serve --baseurl ''`
+
 To contribute, fork and pull request to your heart's content. Also, feel free
 to open any "issues" for page requests, other info you think we should include,
 and necessary bugs to squash.
